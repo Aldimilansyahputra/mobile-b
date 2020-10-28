@@ -1,6 +1,5 @@
 # KELOMPOK - G (MOBILE TI-B)
 
-# KELOMPOK G
 -Aldi Milansyah Putra (182410102028)
 -Dinda Ayu Adiningsih (182410102030)
 -Nur Achmad Kurniawan (182410102071)
