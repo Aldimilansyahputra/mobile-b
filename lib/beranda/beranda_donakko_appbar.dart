@@ -9,9 +9,9 @@ class DonakkoAppBar extends AppBar {
       flexibleSpace: _buildDonakkoAppBar());
 
   static Widget _buildDonakkoAppBar() {
-    return new Container(
+    return Container(
       padding: EdgeInsets.only(left: 16.0, right: 16.0),
-      child: new Row(
+      child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           new Image.asset(

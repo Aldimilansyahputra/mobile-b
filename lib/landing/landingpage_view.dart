@@ -24,7 +24,7 @@ class _LandingPageState extends State<LandingPage> {
   }
 
   Widget _buildBottomNavigation(){
-    return new BottomNavigationBar(
+    return BottomNavigationBar(
       type: BottomNavigationBarType.fixed,
       onTap: (index) {
         setState(() {
@@ -34,11 +34,11 @@ class _LandingPageState extends State<LandingPage> {
       currentIndex: _bottomNavCurrentIndex,
       items: [
         BottomNavigationBarItem(
-          activeIcon: new Icon(
+          activeIcon: Icon(
             Icons.home,
             color: DonakkoPalette.red,
           ),
-          icon: new Icon(
+          icon: Icon(
             Icons.home,
             color: Colors.grey,
           ),

@@ -13,7 +13,7 @@ class _BerandaPageState extends State<BerandaPage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(child: Scaffold(
-      appBar: AppBar(
+      appBar: DonakkoAppBar(
       ),
       backgroundColor: DonakkoPalette.grey200,
       body: Container(
@@ -21,7 +21,7 @@ class _BerandaPageState extends State<BerandaPage> {
           physics: ClampingScrollPhysics(),
           children: <Widget>[
             Container(
-                padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0),
+                padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 30.0),
                 color: Colors.white,
                 child: Column(
                   children: <Widget>[
