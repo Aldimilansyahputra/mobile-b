@@ -4,27 +4,27 @@ import 'package:donakko/constant.dart';
 
 class LandingPage extends StatefulWidget {
   @override
-  _LandingPageState createState() => new _LandingPageState();
+  _LandingPageState createState() => _LandingPageState();
 }
 
 class _LandingPageState extends State<LandingPage> {
   int _bottomNavCurrentIndex = 0;
   List<Widget> _container = [
-    new BerandaPage(),
+    BerandaPage(),
   ];
 
 
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
+    return Scaffold(
         body: _container[_bottomNavCurrentIndex],
         bottomNavigationBar: _buildBottomNavigation()
     );
   }
 
   Widget _buildBottomNavigation(){
-    return new BottomNavigationBar(
+    return BottomNavigationBar(
       type: BottomNavigationBarType.fixed,
       onTap: (index) {
         setState(() {
@@ -34,50 +34,50 @@ class _LandingPageState extends State<LandingPage> {
       currentIndex: _bottomNavCurrentIndex,
       items: [
         BottomNavigationBarItem(
-          activeIcon: new Icon(
+          activeIcon: Icon(
             Icons.home,
             color: DonakkoPalette.red,
           ),
-          icon: new Icon(
+          icon: Icon(
             Icons.home,
             color: Colors.grey,
           ),
-          title: new Text(
+          title: Text(
             'Beranda',
           ),
         ),
         BottomNavigationBarItem(
-          activeIcon: new Icon(
+          activeIcon: Icon(
             Icons.assignment,
             color: DonakkoPalette.red,
           ),
-          icon: new Icon(
+          icon: Icon(
             Icons.assignment,
             color: Colors.grey,
           ),
-          title: new Text('Donasi'),
+          title: Text('Donasi'),
         ),
         BottomNavigationBarItem(
-          activeIcon: new Icon(
+          activeIcon: Icon(
             Icons.mail,
             color: DonakkoPalette.red,
           ),
-          icon: new Icon(
+          icon: Icon(
             Icons.mail,
             color: Colors.grey,
           ),
-          title: new Text('Pesan'),
+          title: Text('Pesan'),
         ),
         BottomNavigationBarItem(
-          activeIcon: new Icon(
+          activeIcon: Icon(
             Icons.person,
             color: DonakkoPalette.red,
           ),
-          icon: new Icon(
+          icon: Icon(
             Icons.person,
             color: Colors.grey,
           ),
-          title: new Text('Akun'),
+          title: Text('Akun'),
         ),
       ],
     );
