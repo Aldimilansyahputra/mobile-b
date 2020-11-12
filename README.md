@@ -21,3 +21,6 @@ UPDATE PROGRESS (28 Okt 2020)
 _______________________________________________________________________________________________________
 
 UPDATE PROGRESS (12 November 2020)
+- Menambah Navigator
+- Menambah Custom widget
+- Menambah Halaman About Me
