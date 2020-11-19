@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:donakko/beranda/beranda_view.dart';
 import 'package:donakko/constant.dart';
+import 'package:donakko/beranda/aboutMe.dart';
 
 class LandingPage extends StatefulWidget {
   @override

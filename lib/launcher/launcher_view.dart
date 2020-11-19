@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:donakko/landing/landingpage_view.dart';
+import 'package:donakko/beranda/beranda_view.dart';
 
 
 class LauncherPage extends StatefulWidget {
@@ -20,7 +21,7 @@ class _LauncherPageState extends State<LauncherPage> {
     var duration = const Duration(seconds: 2);
     return new Timer(duration, () {
       Navigator.of(context).pushReplacement(new MaterialPageRoute(builder: (_) {
-        return new LandingPage();
+        return new BerandaPage();
       }));
     });
   }

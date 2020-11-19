@@ -38,10 +38,27 @@ class _aboutMeState extends State<aboutMe> {
 
 Widget _Tengah(BuildContext){
   return Scaffold(
-    body: Center(
-      child: ListView(
-
-      ),
+    body: Column(
+      children: <Widget>[
+        Text(
+          "One",
+          textAlign: TextAlign.center,
+          style: TextStyle(
+              fontSize: 40.0,
+              color: Colors.blue,
+              fontFamily: "Caveat",
+              fontWeight: FontWeight.w700),
+        ),
+        Text(
+          "Two",
+          textAlign: TextAlign.center,
+          style: TextStyle(
+              fontSize: 40.0,
+              color: Colors.blue,
+              fontFamily: "Caveat",
+              fontWeight: FontWeight.w700),
+        ),
+      ],
     ),
   );
 }
