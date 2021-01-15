@@ -13,9 +13,13 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.3
   shared_preferences:
-  camera: ^0.5.2+1
-  path_provider: ^1.1.0
-  path: ^1.6.2
+  camera:
+  path_provider:
+  path:
+  esys_flutter_share:
+  ext_storage:
+  permission_handler:
+  image_picker:
 
 dev_dependencies:
   flutter_test:

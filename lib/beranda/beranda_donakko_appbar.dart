@@ -5,12 +5,12 @@ class DonakkoAppBar extends AppBar {
   DonakkoAppBar()
       : super(
       elevation: 0.25,
-      backgroundColor: DonakkoPalette.red,
+      backgroundColor: Colors.redAccent,
       flexibleSpace: _buildDonakkoAppBar());
 
   static Widget _buildDonakkoAppBar() {
     return Container(
-      padding: EdgeInsets.only(left: 16.0, right: 16.0),
+      padding: EdgeInsets.only(left: 47.0, right: 16.0, top: 25.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
